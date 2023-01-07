@@ -1,0 +1,249 @@
+* {
+    font-family:'Times New Roman', Times, serif;
+
+}
+/* header section */
+header {
+    background-color: #CE0505;
+    height: 75px;
+    position: relative;
+
+}
+
+.logo-span{
+    background-color: white;
+    border-radius: 50%;
+    padding: 08px 10px;
+    position: absolute;
+    left: 75px;
+    top: 12px;
+
+}
+.logo{
+    color: #CE0505;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+
+}
+.sign-in{
+    position: absolute;
+    right: 80px;
+    top: 25px;
+ 
+}
+.sign-in1{
+    color: white;
+    text-decoration: none;
+}
+.create{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 2px 5px;
+    word-spacing: normal;
+    
+}
+section{
+    position: relative;
+    padding: 20px 15px;
+    background-color:rgb(240, 236, 228);
+}
+
+.Dinner-txt{
+    color: #192F60;
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 20px;
+
+}
+/* Filters-article */
+.Filters-article{
+    box-shadow: 10px 10px 10px #00000029;
+    width: 260px;
+    height: 682px;
+    background-color: #FFFFFF;
+    padding-left: 15px;
+    position: relative;
+}
+.result1{
+    width: 794px;
+    height: 291px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 6px #00000029;
+    position: absolute;
+    top: 80px;
+    left: 300px;
+}
+.result2{
+    width: 794px;
+    height: 291px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 6px #00000029;
+    position: absolute;
+    top: 380px;
+    left: 300px;
+
+}
+.pagination{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+}
+/* Filters */
+.one1{
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 2px 5px;
+    font: normal normal medium 20px/30px Poppins;
+    letter-spacing: 0px;
+    color: #8C96AB;
+
+}
+
+.select{
+    position: absolute;
+    top: 58px;
+   
+}
+.cusine{
+    padding-top: 10px;
+    padding-left: 1px;
+    font-size: 15px;
+}
+.filter-clr{
+    color: #192F60;
+}
+.cusine1{
+  position: absolute;
+  top: 15%;
+  left: 12px;
+}
+.cost{
+    position: absolute;
+    top: 26%;
+    left: 14px;
+}
+.cost1{
+    position: absolute;
+    top: 31%;
+    left: 14px;
+    border-radius: 50%;
+}
+.sort{
+    position: absolute;
+    top: 43%;
+    left: 14px;
+    border-radius: 50%;
+
+}
+.sort1{
+    position: absolute;
+    top: 49%;
+    left: 14px;
+    border-radius: 50%;
+}
+ /*  Restaurant Properties */
+img{
+    position: absolute;
+    border-radius: 10px;
+    left: 3%;
+    top: 60px;
+}
+
+.img1{
+    position: absolute;
+    width: 303px;
+    height: 43px;
+    left: 25%;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 600 30px/46px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+}
+.img2{
+    position: absolute;
+    left: 25%;
+    top: 60px;
+    color: #192F60;
+}
+.img3{
+    position: absolute;
+    left: 25%;
+    top: 80px;
+    color: #6e90da;
+}
+.cus1{
+    position: absolute;
+    padding-left: 25%;
+    top: 160px;
+    color: #4d5f89;
+}
+.cus2{
+    position: absolute;
+    padding-left: 25%;
+    top: 200px;
+    color:  #4d5f89;
+
+}
+.cus3{
+    position: absolute;
+    padding-left: 45%;
+    top: 160px;
+    color: #4d5f89;
+
+}
+.cus4{
+    position: absolute;
+    padding-left: 45%;
+    top: 200px;
+    color:  #4d5f89;
+
+}
+hr{
+   width: 85%;
+   height: 1px;
+   background-color: #d9e1f1;
+}
+.img5{
+    position: absolute;
+    width: 303px;
+    height: 43px;
+    left: 25%;
+    top: 2%;
+    text-align: left;
+    font: normal normal 600 30px/46px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+}
+/* tagline */
+marquee{
+    color: rgb(187, 224, 21);
+    text-align: center;
+    scroll-behavior: smooth;
+
+}
+/* Feedback */
+textarea{
+    position:absolute;
+    left: 76%;
+    bottom: 10% ;
+    background-color: #d8e0e0;
+    color: rgb(187, 224, 21);
+    text-align: center;
+    border-radius: 6px;
+}
+.feed{
+    position:absolute;
+    left: 80%;
+    bottom: 20% ;
+}
+button{
+    position:absolute;
+    left: 96%;
+    bottom: 6% ;
+}
+
